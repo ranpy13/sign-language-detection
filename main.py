@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import cv2 
 from keras.models import Sequential 
-from keras.layers import Conv2D,MaxPooling2D, Dense,Flatten
+from keras.layers import Conv2D,MaxPooling2D, Dense,Flatten, Dropout
 from keras.datasets import mnist 
 import matplotlib.pyplot as plt
 from keras.utils import np_utils
@@ -24,9 +24,9 @@ download = drive.CreateFile({'id': '1wG0gS-bqjV6yz1YveuxkvHT5_2DOuT05'})
 download.GetContentFile('train.csv')
 train = pd.read_csv('train.csv')
 
-download = drive.CreateFile({'id': '1wG0gS-bqjV6yz1YveuxkvHT5_2DOuT05'})
-download.GetContentFile('train.csv')
-train = pd.read_csv('train.csv')
+download = drive.CreateFile({'id': '1q_Zwlu3RncjKq1YpiVtkiMPxIIueGRYB'})
+download.GetContentFile('test.csv')
+test = pd.read_csv('test.csv')
 
 display(train.info())
 
