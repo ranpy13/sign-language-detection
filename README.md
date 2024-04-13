@@ -23,6 +23,6 @@
 * Run `ROIinOpenCV.py`
 * *Pytorch* Implementation is given in `sign_language_pytorch.ipynb`
 * Read the entire process at:
-  > [http://arshad-kazi.com/sign-language-recognition-using-cnn-and-opencv/] (http://arshad-kazi.com/sign-language-recognition-using-cnn-and-opencv/)
+  > [http://arshad-kazi.com/sign-language-recognition-using-cnn-and-opencv/](http://arshad-kazi.com/sign-language-recognition-using-cnn-and-opencv/)
 
 
